@@ -1,0 +1,37 @@
+.containerNavbar{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;    
+}
+
+.navbar{
+    background-color: #35374B;
+    height: 15vh;
+    padding: 5vh;
+    box-sizing: border-box;
+    text-align: start;
+    border-bottom: 1px solid #bbcbbf;
+}
+
+.title{
+    background-color: #35374B; 
+}
+
+.loginBtn{
+    background-color: #35374B;
+    color: #bbcbbf;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.loginBtn:hover{
+    color: black;
+}
+
+.loginBtn:active{
+    color: #78A083;
+}
