@@ -1,35 +1,30 @@
 .containerNavbar{
     display: flex;
-    width: 100vw;
-    height: 100vh;
-    flex-direction: column;    
+    flex-direction: column;
+    background-color: #35374B;
 }
 
 .navbar{
-    background-color: #35374B;
-    height: 15vh;
-    padding: 5vh;
-    box-sizing: border-box;
-    text-align: start;
-    border-bottom: 1px solid #bbcbbf;
+    background-color: black;
+    height: 99.83px;
 }
 
 .title{
-    background-color: #35374B; 
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
 }
 
 .loginBtn{
-    background-color: #35374B;
+    display: flex;
+    background-color: black;
     color: #bbcbbf;
-    border: none;
-    width: 100px;
-    height: 30px;
-    font-size: larger;
-    font-family:Arial, Helvetica, sans-serif;
+    width: 100vw;
 }
 
 .loginBtn:hover{
-    color: black;
+    color: #fcfdfd;
 }
 
 .loginBtn:active{
